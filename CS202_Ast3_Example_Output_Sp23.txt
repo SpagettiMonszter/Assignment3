@@ -1,0 +1,408 @@
+kishore@kishore-virtual-machine:/CS202_Ast3_Sp23_Ubuntu$ make
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c main.cpp
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c studentInfoImp.cpp
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c studentGradeDetailsImp.cpp
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c studentTypeImp.cpp
+g++ -Wall -Wextra -pedantic -std=c++11 -g -c calculateFeeImp.cpp
+g++ -Wall -Wextra -pedantic -std=c++11 -g -o main main.o studentInfoImp.o studentGradeDetailsImp.o studentTypeImp.o calculateFeeImp.o 
+kishore@kishore-virtual-machine:/CS202_Ast3_Sp23_Ubuntu$ ./main
+
+######################################################################
+          Welcome to University of Science and Technology
+######################################################################
+
+*****************************************************************
+Given Student ID: you11ug
+
+__________________________________________________
+Under Graduate Student: 
+Student ID: you11ug 
+Name: Mark Young
+Birth Month: 11
+
+Letter Grades: A B C A
+Credits Enrolled: 12
+GPA: 3.25
+
+Credits Required: 120
+Credits Fulfilled: 12
+Credits to Go: 108
+__________________________________________________
+
+*****************************************************************
+Given Student ID: mil08gr
+
+__________________________________________________
+Graduate Student: 
+Student ID: mil08gr 
+Name: David Miller
+Birth Month: 08
+
+Letter Grades: B B B B
+Credits Enrolled: 12
+GPA: 3
+
+Credits Required: 26
+Credits Fulfilled: 12
+Credits to Go: 14
+__________________________________________________
+
+*****************************************************************
+Given Student ID: whi04uu
+Invalid Last 2 Characters ID
+Error: whi04uu is Invalid StudentID 
+Invalid Birth Month
+
+__________________________________________________
+Graduate Student: 
+Student ID:  
+Name: Lisa White
+Birth Month: 00
+
+Letter Grades: C A B C
+Credits Enrolled: 12
+GPA: 2.75
+
+Credits Required: 124
+Credits Fulfilled: 12
+Credits to Go: 112
+__________________________________________________
+
+*****************************************************************
+Given Student ID: JAM01ug
+
+__________________________________________________
+Under Graduate Student: 
+Student ID: JAM01ug 
+Name: Nicholas James
+Birth Month: 01
+
+Letter Grades: A A A A
+Credits Enrolled: 12
+GPA: 4
+
+Credits Required: 120
+Credits Fulfilled: 12
+Credits to Go: 108
+__________________________________________________
+
+*****************************************************************
+Given Student ID: Wil02gr
+
+__________________________________________________
+Graduate Student: 
+Student ID: Wil02gr 
+Name: John Williams
+Birth Month: 02
+
+Letter Grades: B C C C
+Credits Enrolled: 12
+GPA: 2.25
+
+Credits Required: 30
+Credits Fulfilled: 12
+Credits to Go: 18
+__________________________________________________
+
+*****************************************************************
+Given Student ID: CLA04gr
+
+__________________________________________________
+Graduate Student: 
+Student ID: CLA04gr 
+Name: Anthony Clark
+Birth Month: 04
+
+Letter Grades: A A C B
+Credits Enrolled: 12
+GPA: 3.25
+
+Credits Required: 32
+Credits Fulfilled: 12
+Credits to Go: 20
+__________________________________________________
+
+*****************************************************************
+Given Student ID: Kar03gr
+
+__________________________________________________
+Graduate Student: 
+Student ID: Kar03gr 
+Name: Karen Garcia
+Birth Month: 11
+
+Letter Grades: C A A C
+Credits Enrolled: 12
+GPA: 3
+
+Credits Required: 30
+Credits Fulfilled: 12
+Credits to Go: 18
+__________________________________________________
+
+*****************************************************************
+Given Student ID: Sha9gr
+Invalid ID - Less than 7 characters
+Error: Sha9gr is Invalid StudentID 
+
+__________________________________________________
+Graduate Student: 
+Student ID:  
+Name: Janet Shaw
+Birth Month: 09
+
+Letter Grades: B B D B
+Credits Enrolled: 12
+GPA: 2.5
+
+Credits Required: 30
+Credits Fulfilled: 9
+Credits to Go: 21
+__________________________________________________
+
+*****************************************************************
+Given Student ID: 07WEAgr
+Invalid Alphabets ID
+Invalid Digits ID
+Invalid Grade Entry
+
+__________________________________________________
+Graduate Student: 
+Student ID: 07WEAgr 
+Name: Noah Weaver
+Birth Month: 07
+
+Letter Grades: A K B B
+Credits Enrolled: 12
+GPA: 0
+
+Credits Required: 120
+Credits Fulfilled: 9
+Credits to Go: 111
+__________________________________________________
+
+
+######################################################################
+
+Using Setter Function to
+Fix Previous Invalid Entries
+######################################################################
+
+*****************************************************************
+Given Student ID: whi04ug
+
+__________________________________________________
+Under Graduate Student: 
+Student ID: whi04ug 
+Name: Lisa White
+Birth Month: 04
+
+Letter Grades: C A B C
+Credits Enrolled: 12
+GPA: 2.75
+
+Credits Required: 124
+Credits Fulfilled: 12
+Credits to Go: 112
+__________________________________________________
+
+*****************************************************************
+Given Student ID: Sha09gr
+
+__________________________________________________
+Graduate Student: 
+Student ID: Sha09gr 
+Name: Janet Shaw
+Birth Month: 09
+
+Letter Grades: B B D B
+Credits Enrolled: 12
+GPA: 2.5
+
+Credits Required: 30
+Credits Fulfilled: 9
+Credits to Go: 21
+__________________________________________________
+
+
+######################################################################
+
+Default Constructor and Setter Function
+
+######################################################################
+
+*****************************************************************
+Given Student ID: gom05ug
+
+__________________________________________________
+Under Graduate Student: 
+Student ID: gom05ug 
+Name: Emily Gomez
+Birth Month: 05
+
+Letter Grades: A A F B
+Credits Enrolled: 12
+GPA: 2.75
+
+Credits Required: 120
+Credits Fulfilled: 9
+Credits to Go: 111
+__________________________________________________
+
+*****************************************************************
+Given Student ID: ort11gr
+Inavlid Credits Enrolled Entry
+Invalid Grade Entry
+
+__________________________________________________
+Graduate Student: 
+Student ID: ort11gr 
+Name: Laura Ortiz
+Birth Month: 11
+
+Letter Grades: B F G B
+Credits Enrolled: 0
+GPA: 0
+
+Credits Required: 34
+Credits Fulfilled: 6
+Credits to Go: 28
+__________________________________________________
+
+*****************************************************************
+Given Student ID: jer04gr
+Invalid Birth Month
+Inavlid Credits Enrolled Entry
+Invalid Grade Entry
+
+__________________________________________________
+Graduate Student: 
+Student ID: jer04gr 
+Name: Jerry Webb
+Birth Month: 00
+
+Letter Grades: F F Z D
+Credits Enrolled: 0
+GPA: 0
+
+Credits Required: 30
+Credits Fulfilled: 0
+Credits to Go: 30
+__________________________________________________
+
+
+######################################################################
+
+Calculate Fee for Under Graduate and Graduate Students
+
+######################################################################
+
+
+*****************************************************************
+
+__________________________________________________
+Graduate Student: 
+Student ID: Kar03gr 
+Name: Karen Garcia
+Birth Month: 11
+
+Letter Grades: C A A C
+Credits Enrolled: 12
+GPA: 3
+
+Credits Required: 30
+Credits Fulfilled: 12
+Credits to Go: 18
+__________________________________________________
+
+Graduate Fee per credit: $ 660.00
+FeeAmount for 18 credits is: $ 11880.00
+
+*****************************************************************
+ID Mismatch or Invalid ID is passed; ID from calculateFee is: gomo5ug
+
+*****************************************************************
+ID Mismatch or Invalid ID is passed; ID from calculateFee is: CLA03gr
+
+*****************************************************************
+
+__________________________________________________
+Graduate Student: 
+Student ID: ort11gr 
+Name: Laura Ortiz
+Birth Month: 11
+
+Letter Grades: B F G B
+Credits Enrolled: 0
+GPA: 0.00
+
+Credits Required: 34
+Credits Fulfilled: 6
+Credits to Go: 28
+__________________________________________________
+
+Graduate Fee per credit: $ 660.00
+FeeAmount for 28 credits is: $ 18480.00
+
+*****************************************************************
+
+__________________________________________________
+Graduate Student: 
+Student ID: jer04gr 
+Name: Jerry Webb
+Birth Month: 00
+
+Letter Grades: F F Z D
+Credits Enrolled: 0
+GPA: 0.00
+
+Credits Required: 30
+Credits Fulfilled: 0
+Credits to Go: 30
+__________________________________________________
+
+Graduate Fee per credit: $ 660.00
+FeeAmount for 30 credits is: $ 19800.00
+
+*****************************************************************
+
+__________________________________________________
+Under Graduate Student: 
+Student ID: you11ug 
+Name: Mark Young
+Birth Month: 11
+
+Letter Grades: A B C A
+Credits Enrolled: 12
+GPA: 3.25
+
+Credits Required: 120
+Credits Fulfilled: 12
+Credits to Go: 108
+__________________________________________________
+
+underGradFee per credit: $ 456.00
+FeeAmount for 108 credits is: $ 49248.00
+
+*****************************************************************
+
+__________________________________________________
+Under Graduate Student: 
+Student ID: JAM01ug 
+Name: Nicholas James
+Birth Month: 01
+
+Letter Grades: A A A A
+Credits Enrolled: 12
+GPA: 4.00
+
+Credits Required: 120
+Credits Fulfilled: 12
+Credits to Go: 108
+__________________________________________________
+
+underGradFee per credit: $ 456.00
+FeeAmount for 108 credits is: $ 49248.00
+
+######################################################################
+kishore@kishore-virtual-machine:/CS202_Ast3_Sp23_Ubuntu$ 
